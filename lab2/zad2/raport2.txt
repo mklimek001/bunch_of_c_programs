@@ -1,0 +1,43 @@
+system functions:
+
+Number of a in ./inwokacja.txt: 54
+Number of lines contains a in ./inwokacja.txt: 23
+Content of './inwokacja.txt' browsed in time: 0.001364
+
+Number of y in ./inwokacja.txt: 32
+Number of lines contains y in ./inwokacja.txt: 17
+Content of './inwokacja.txt' browsed in time 0.001351
+
+Number of t in ./tadeusz.txt: 10757
+Number of lines contains t in ./tadeusz.txt: 6662
+Content of './tadeusz.txt' browsed in time 0.275207
+
+Number of s in ./tadeusz.txt: 15255
+Number of lines contains s in ./tadeusz.txt: 8055
+Content of './tadeusz.txt' browsed in time 0.280746
+
+
+
+standard library functions:
+
+Number of a in ./inwokacja.txt: 54
+Number of lines contains a in ./inwokacja.txt: 23
+Content of './inwokacja.txt' browsed in time: 0.000090
+
+Number of y in ./inwokacja.txt: 32
+Number of lines contains y in ./inwokacja.txt: 17
+Content of './inwokacja.txt' browsed in time 0.000057
+
+Number of t in ./tadeusz.txt: 10757
+Number of lines contains t in ./tadeusz.txt: 6662
+Content of './tadeusz.txt' browsed in time 0.003659
+
+Number of s in ./tadeusz.txt: 15255
+Number of lines contains s in ./tadeusz.txt: 8055
+Content of './tadeusz.txt' browsed in time 0.003804
+
+
+
+Podobnie jak w pierwszym zadaniu, takze w przypadku przeszukiwania plikow zdecydowanie (nawet kilkudziesieciokrotnie) szybciej dzialaja funkcje z biblioteki standardowej
+
+

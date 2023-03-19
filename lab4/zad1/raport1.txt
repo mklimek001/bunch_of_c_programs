@@ -1,0 +1,205 @@
+FORK
+
+  TEST SIGNAL 10
+
+	Handler option chosen
+	Handler works!
+	Signal number 10
+	...program works
+	Process ID: 3945
+	Handler works!
+	Signal number 10
+	...new program works
+	...program works
+	...new program works
+	...program works
+	...new program works
+
+	
+	Pending option chosen
+	Pending signals : 
+	10
+	...program works
+	Process ID: 3947
+	Pending signals in new Process : 
+	10
+	...new program works
+	...new program works
+	...program works
+	...program works
+	...new program works
+
+	
+	Ignore option chosen
+	...program works
+	Process ID: 3949
+	...new program works
+	...program works
+	...new program works
+	...program works
+	...new program works
+
+
+	Mask option chosen
+	...program works
+	Process ID: 3952
+	...new program works
+	...program works
+	...new program works
+	...program works
+	...new program works
+
+
+  TEST SIGNAL 6
+  
+  	Handler option chosen
+	Handler works!
+	Signal number 6
+	...program works
+	Process ID: 3933
+	Handler works!
+	Signal number 6
+	...new program works
+	...program works
+	...new program works
+	...program works
+	...new program works
+
+  
+  	Pending option chosen
+	Pending signals : 
+	6
+	...program works
+	Process ID: 3927
+	Pending signals in new Process : 
+	6
+	...new program works
+	...program works
+	...new program works
+	...program works
+	...new program works
+		
+  
+  	Ignore option chosen
+	...program works
+	Process ID: 3921
+	...new program works
+	...program works
+	...new program works
+	...program works
+	...new program works
+
+	
+	Mask option chosen
+	...program works
+	Process ID: 3917
+	...new program works
+	...program works
+	...new program works
+	...program works
+	...new program works
+
+
+  TEST SIGNAL 9
+  
+	Handler option chosen
+	Killed
+
+	Pending option chosen
+	Killed
+	
+	Mask option chosen
+	Killed
+	
+	Ignore option chosen
+	Killed
+	
+	
+	
+EXEC
+
+  TEST SIGNAL 10
+  
+  	Pending option chosen
+	Pending signals : 
+	10
+	Exec program
+	Pending option chosen
+	Pending signals in exec Process : 
+	10
+	...exec program works
+	...exec program works
+	...exec program works
+	
+	
+	Mask option chosen
+	Exec program
+	Mask option chosen
+	...exec program works
+	...exec program works
+	...exec program works
+	
+	
+	Ignore option chosen
+	Exec program
+	Ignore option chosen
+	...exec program works
+	...exec program works
+	...exec program works
+
+
+	
+  TEST SIGNAL 6
+  
+	Pending option chosen
+	Pending signals : 
+	6
+	Exec program
+	Pending option chosen
+	Pending signals in exec Process : 
+	6
+	...exec program works
+	...exec program works
+	...exec program works
+	
+	
+	Mask option chosen
+	Exec program
+	Mask option chosen
+	...exec program works
+	...exec program works
+	...exec program works
+
+	
+	Ignore option chosen
+	Exec program
+	Ignore option chosen
+	...exec program works
+	...exec program works
+	...exec program works
+
+
+  TEST SIGNAL 9
+
+	Pending option chosen
+	Killed
+	
+	Mask option chosen
+	Killed
+	
+	Ignore option chosen
+	Killed
+
+
+	
+
+
+
+
+
+
+
+
+
+  
+  

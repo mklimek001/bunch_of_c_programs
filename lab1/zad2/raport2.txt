@@ -1,0 +1,95 @@
+Static Library Tests
+
+Real time to alloc 1 field: 0.000001.
+System time: 0
+User time: 0
+Real time to free 1 field: 0.000001.
+System time: 0
+User time: 0
+Give the file number 1: name.txt
+ Number of chars: 15
+ Number of words: 2
+ Number of lines: 1
+Real time to explore 1 small file: 0.000280.
+System time: 0
+User time: 0
+
+Give the number of fields to reserve:5
+Real time to alloc 5 fields: 0.000001.
+System time: 0
+User time: 0
+Real time to free 5 field: 0.000000.
+System time: 0
+User time: 0
+Real time to explore 5 small files: 0.000964.
+System time: 0
+User time: 0
+
+Real time to alloc 10 fields: 0.000001.
+System time: 0
+User time: 0
+Real time to free 10 field: 0.000001.
+System time: 0
+User time: 0
+Real time to explore 10 small files: 0.001352.
+System time: 0
+User time: 0
+
+System time: 0
+User time: 0
+Real time to free 1 field: 0.000001.
+System time: 0
+User time: 0
+Give the file number 1: inwokacja.txt
+ Number of chars: 1054
+ Number of words: 146
+ Number of lines: 23
+Real time to explore 1 medium file: 0.000175.
+System time: 0
+User time: 0
+
+Real time to explore 5 medium files: 0.000801.
+System time: 0
+User time: 0
+
+Real time to explore 10 medium files: 0.001032.
+System time: 0
+User time: 0
+
+Real time to alloc 1 fields: 0.000001.
+System time: 0
+User time: 0
+Real time to free 1 field: 0.000000.
+System time: 0
+User time: 0
+Give the file number 1: tadeusz.txt
+ Number of chars: 482912
+ Number of words: 74293
+ Number of lines: 10849
+Real time to explore 1 huge file: 0.006736.
+System time: 0
+User time: 0
+
+Real time to explore 10 huge files: 0.036343.
+System time: 1
+User time: 1
+
+Real time to alloc 500 fields: 0.000012.
+System time: 0
+User time: 0
+Real time to free 500 field: 0.000001.
+System time: 0
+User time: 0
+
+Real time to alloc 5000 fields: 0.000023.
+System time: 0
+User time: 0
+Real time to free 5000 field: 0.000001.
+System time: 0
+User time: 0
+
+
+
+
+
+

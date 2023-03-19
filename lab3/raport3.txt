@@ -1,0 +1,23 @@
+student@ubuntu:~/ITstudies/Sysop/lab4/zad3$ ./catcher 10000 kill
+Catcher program with pid : 5260
+    Sender program with pid : 5261
+Number of received signs in catcher : 497
+    Number of received signs in sender : 616 
+^C
+
+student@ubuntu:~/ITstudies/Sysop/lab4/zad3$ ./catcher 10000 sigqueue
+Catcher program with pid : 5262
+    Sender program with pid : 5263
+Number of received signs in catcher : 7370
+    Number of received signs in sender : 6963 
+^C
+
+student@ubuntu:~/ITstudies/Sysop/lab4/zad3$ ./catcher 10000 sigrt
+Catcher program with pid : 6604
+    Sender program with pid : 6605
+Number of received signs in catcher : 10000
+    Number of received signs in sender : 10000 
+^C
+
+
+

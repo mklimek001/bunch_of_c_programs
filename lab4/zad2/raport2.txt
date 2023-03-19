@@ -1,0 +1,54 @@
+SA_SIGINFO
+
+ 		  Funkcja  obsługi  sygnałów pobiera trzy argumenty, a nie jeden. W typ przypadku
+                  zamiast ustawiać sa_handler należy ustawić sa_sigaction. Flaga ta ma  znaczenie
+                  tylko w przypadku ustanawiania funkcji obsługi sygnału.
+        
+                  
+Main function works
+Sigaction handler works!
+Signal number 6
+PID of sending process 13940
+UID of sending user 1000
+...program works
+...program works
+...program works  
+
+		  Flaga pozwala na zyskanie dostepu do dodatkowych informacji o procesie 
+		      
+
+
+SA_RESTART
+                  Dostarcza zachowania kompatybilnego z semantyką sygnałową  BSD,  czyniąc  pewne
+                  wywołania  systemowe odtwarzalnymi przez sygnały. Flaga ta ma znaczenie podczas
+                  ustanawiania procedury obsługi sygnału. Informacje na temat odtwarzania wywołań
+                  systemowych można znaleźć w podręczniku signal(7).
+
+Main function works
+Sigaction handler works!
+Signal number 10
+Handler end its work!
+...program works
+...program works
+...program works
+
+		  Flaga nie ma wplywu na ten program
+		
+		
+		
+  SA_NODEFER
+                  Nie  chroni  sygnałów  przed  ich  odebraniem  z ich własnej procedury obsługi.
+                  Znacznik ma znaczenie tylko podczas  ustanawiania  procedury  obsługi  sygnału.
+                    
+Main function works
+Sigaction handler works!
+Signal number 10
+Handler end its work!
+...program works
+...program works
+...program works
+
+		  Flaga nie ma wplywu na ten program
+
+
+

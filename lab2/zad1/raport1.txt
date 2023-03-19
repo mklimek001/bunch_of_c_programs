@@ -1,0 +1,8 @@
+system functions:
+Content of './inwokacja.txt' copied in time 0.001539!
+
+
+standard library functions:
+Content of './inwokacja.txt' copied in time 0.000250!
+
+Kopiowanie pliku wykonane z wykorzystaniem funkcji ze standardej biblioteki jest kilkukrotnie szybsze niz w przypadku funkcji systemowych

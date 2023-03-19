@@ -1,0 +1,27 @@
+-o
+Real time to alloc 100 fields: 0.000038.
+System time: 0
+User time: 0
+Real time to explore 10 files: 0.000549.
+System time: 0
+User time: 0
+
+
+-o1
+Real time to alloc 100 fields: 0.000104.
+System time: 0
+User time: 0
+Real time to explore 10 files: 0.001584.
+System time: 0
+User time: 0
+
+
+-os
+Real time to alloc 100 fields: 0.000111.
+System time: 0
+User time: 0
+Real time to explore 10 files: 0.001501.
+System time: 0
+User time: 0
+
+Zadna z testowanych optymalizacji, innych niz -o nie poprawil szybkosci dzialania programu

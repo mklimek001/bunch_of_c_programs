@@ -1,0 +1,15 @@
+ingredient1 = cat /etc/passwd | wc -l
+ingredient2 = ls -a | wc -l
+ingredient3 = ls ./testFiles
+ingredient4 = grep '.txt'
+ingredient5 = cat ./testFiles/inwokacja.txt | grep 'a' | wc -l
+ingredient6 = cat ./testFiles/reduta.txt
+ingredient7 = grep 'Ordon'
+ingredient8 = wc -l
+ingredient9 = wc -w
+ingredient10 = cat ./testFiles/upior.txt
+
+ingredient2
+ingredient3 | ingredient4 | ingredient9
+ingredient5 | ingredient7 | ingredient8
+ingredient10 | ingredient9

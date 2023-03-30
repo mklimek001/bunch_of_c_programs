@@ -1,0 +1,87 @@
+simpletest.ascii.txt
+Dimensions: 12 x 10, number of threads: 1, separation type: block
+    Time of operation : 0.000203
+Dimensions: 12 x 10, number of threads: 2, separation type: block
+    Time of operation : 0.000291
+Dimensions: 12 x 10, number of threads: 4, separation type: block
+    Time of operation : 0.000632
+Dimensions: 12 x 10, number of threads: 8, separation type: block
+    Time of operation : 0.000671
+
+Dimensions: 12 x 10, number of threads: 1, separation type: numbers
+    Time of operation : 0.000145
+Dimensions: 12 x 10, number of threads: 2, separation type: numbers
+    Time of operation : 0.000312
+Dimensions: 12 x 10, number of threads: 4, separation type: numbers
+    Time of operation : 0.000464
+Dimensions: 12 x 10, number of threads: 8, separation type: numbers
+    Time of operation : 0.000956
+
+
+mona_lisa.ascii.txt
+Dimensions: 360 x 250, number of threads: 1, separation type: block
+    Time of operation : 0.001880
+Dimensions: 360 x 250, number of threads: 2, separation type: block
+    Time of operation : 0.001318
+Dimensions: 360 x 250, number of threads: 4, separation type: block
+    Time of operation : 0.001576
+Dimensions: 360 x 250, number of threads: 8, separation type: block
+    Time of operation : 0.001541
+Dimensions: 360 x 250, number of threads: 16, separation type: block
+    Time of operation : 0.003487
+
+Dimensions: 360 x 250, number of threads: 1, separation type: numbers
+    Time of operation : 0.003499
+Dimensions: 360 x 250, number of threads: 2, separation type: numbers
+    Time of operation : 0.003032
+Dimensions: 360 x 250, number of threads: 4, separation type: numbers
+    Time of operation : 0.004655
+Dimensions: 360 x 250, number of threads: 8, separation type: numbers
+    Time of operation : 0.005823
+Dimensions: 360 x 250, number of threads: 16, separation type: numbers
+    Time of operation : 0.010160
+
+    
+lena.ascii.txt
+Dimensions: 512 x 512, number of threads: 1, separation type: block
+    Time of operation : 0.004944
+Dimensions: 512 x 512, number of threads: 2, separation type: block
+    Time of operation : 0.002585
+Dimensions: 512 x 512, number of threads: 4, separation type: block
+    Time of operation : 0.002844
+Dimensions: 512 x 512, number of threads: 8, separation type: block
+    Time of operation : 0.002789    
+Dimensions: 512 x 512, number of threads: 16, separation type: block
+    Time of operation : 0.004817
+Dimensions: 512 x 512, number of threads: 32, separation type: block
+    Time of operation : 0.007689
+   
+Dimensions: 512 x 512, number of threads: 1, separation type: numbers
+    Time of operation : 0.008967
+Dimensions: 512 x 512, number of threads: 2, separation type: numbers
+    Time of operation : 0.010126
+Dimensions: 512 x 512, number of threads: 4, separation type: numbers
+    Time of operation : 0.012608
+Dimensions: 512 x 512, number of threads: 8, separation type: numbers
+    Time of operation : 0.020020
+Dimensions: 512 x 512, number of threads: 16, separation type: numbers
+    Time of operation : 0.034348
+Dimensions: 512 x 512, number of threads: 32, separation type: numbers
+    Time of operation : 0.070025
+
+    
+Rozdzielania operacji na watki daje najlepsze efekty wtedy, gdy przetwarzany jest obraz o wiekszej rozdzielczosci. W innych przypadkach zysk z rozdzielenie obliczen na wiele watkow jest niwelowany przez czas potrzebny do ich stworzenia.
+Czas przeprowadzenia obliczen maleje tylko w przypadku korzystania z metody podzialu "block". Najwieksza zmiana widoczna jest przy przejsciu z jednego na dwa watki - ma to zwiazek z tym, ze testy przeprowadzone zostaly na dwurdzeniowej maszynie wirtualnej. Wieksza liczba watkow sprawia, ze czas portzebny na ich stworzenie rosnie, sprawiajac, ze cala operacja zajmuje wiecej czasu niz przy mniejszej liczbie watkow. 
+W przypadku metody podzialu "numbers" zwiekszenie liczby watkow sprawia, ze obliczenia sie wydluzaja - kazdy watek i tak musi sprawdzic wszysykie piksele obrazu
+
+
+
+
+
+
+
+
+
+
+
+

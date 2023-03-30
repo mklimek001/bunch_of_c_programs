@@ -1,5 +1,4 @@
 # C Programs
-Bunch of programs using C files operations, threads, semaphores, mutex and much moore.   
 Created during classes about operating systems at AGH UST. 
 * lab1 - libraries in C
 * lab2 - file statistics
